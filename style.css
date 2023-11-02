@@ -533,4 +533,28 @@ footer p
     font-size: 20px;
     line-height: 25px;
 }
+@media screen and (max-width: 768px) {
+    /* Adjust styles for screens up to 768px wide */
+
+    /* Example: Reduce font size or adjust layout */
+    .main h2 {
+        font-size: 1.5rem;
+    }
+    
+    .item_content p {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Adjust styles for smaller screens (e.g., mobile devices) */
+
+    /* Example: Make the navigation links stack vertically */
+    .nav_side {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    /* Modify other styles as needed for smaller screens */
+}
 /*--------------------------------------------CATERING---------------------------------------*/
